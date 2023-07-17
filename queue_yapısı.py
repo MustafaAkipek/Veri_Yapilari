@@ -10,6 +10,6 @@ myQueue = Queue()
 myQueue.put(1) # Enqueue işlemi yapıp Queue' ye 1 elemanını ekledik
 myQueue.put(10) # Enqueue işlemi yapıp Queue' ye 10 elemanını ekledik
 myQueue.put(20) # Enqueue işlemi yapıp Queue' ye 20 elemanını ekledik
-print(myQueue.get()) # Dequeue işlemi yapıp Queue' nun ilk elemanı kaldırdık(1)
-print(myQueue.get()) # Dequeue işlemi yapıp Queue' nun ilk elemanı kaldırdık(10)
-print(myQueue.get()) # Dequeue işlemi yapıp Queue' nun ilk elemanı kaldırdık(20)
+myQueue.get() # Dequeue işlemi yapıp Queue' nun ilk elemanı kaldırdık(1)
+myQueue.get() # Dequeue işlemi yapıp Queue' nun ilk elemanı kaldırdık(10)
+myQueue.get() # Dequeue işlemi yapıp Queue' nun ilk elemanı kaldırdık(20)
