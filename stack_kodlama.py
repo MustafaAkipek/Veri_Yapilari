@@ -16,7 +16,7 @@ class Stack():
         return self.elements == []
     
     def push(self, element):
-        return self.elements.append(element)
+        self.elements.append(element)
 
     def pop(self):
         return self.elements.pop()
