@@ -32,4 +32,4 @@ myQueue.dequeue() # remove 10
 myQueue.size() # 2
 myQueue.dequeue() # remove 20
 myQueue.dequeue() # remove 30
-a = myQueue.isEmpty() # True
+myQueue.isEmpty() # True

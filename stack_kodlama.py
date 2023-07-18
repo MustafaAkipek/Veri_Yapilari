@@ -40,9 +40,7 @@ myStack.push("a") # append "a"
 myStack.showLast() # "a"
 myStack.pop() # remove "a"
 myStack.showLast() # 40
-myStack.__str__() # [10, 20, 40]
 myStack.pop() # remove 40
 myStack.pop() # remove 20
 myStack.pop() #remove 10
-myStack.__str__() # []
 myStack.isEmpty() # True
