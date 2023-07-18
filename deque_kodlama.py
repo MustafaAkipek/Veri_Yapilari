@@ -39,4 +39,8 @@ myDeque.addRight(20) # append 20
 myDeque.addLeft(30) # append 30
 myDeque.addLeft(40) # append 40
 myDeque.addRight(50) # append 50
-myDeque.__str__()
+myDeque.size() # 5
+myDeque.removeLeft() # remove 40
+myDeque.removeLeft() # remove 30
+myDeque.removeRight() # remove 50
+myDeque.size() # 2
